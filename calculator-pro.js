@@ -9,11 +9,10 @@ function getInput() {
   console.log(input);
 }
 
-if (btn){
+
   btn.addEventListener("click", e => {
     console.log(getInput(e));
-  })
-}
+
 
 
 // value2.addEventListener("click", e => {
