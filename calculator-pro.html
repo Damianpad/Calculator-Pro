@@ -7,20 +7,39 @@
   <title></title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div>
-    <form>
-      Value 1
-      <input class="value1">
-      Value2
-      <input class="value2">
-    </form>
-
-
-    <button id="calculate">=</button>
+  <div class="calculator">
+    <h1>Calculator Pro</h1>
+    <input class="valueBox" type="value1">
+    <div class="background">
+      <div class="numPad">
+        <button id="num">7</button>
+        <button id="num">8</button>
+        <button id="num">9</button>
+        <button id="operator">/</button>
+      </div>
+      <div class="numPad">
+        <button id="num">4</button>
+        <button id="num">5</button>
+        <button id="num">6</button>
+        <button id="operator">*</button>
+      </div>
+      <div class="numPad">
+        <button id="num">1</button>
+        <button id="num">2</button>
+        <button id="num">3</button>
+        <button id="operator">-</button>
+      </div>
+      <div class="numPad">
+        <button id="num">0</button>
+        <button id="operator">.</button>
+        <button id="operator">=</button>
+        <button id="operator">+</button>
+      </div>
+    </div>
 
     <script src="calculator-pro.js" async defer></script>
 </body>
