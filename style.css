@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Montserrat:ital,wght@1,500&display=swap');
+
+* {
+    background-color: #22252d;
+}
+
+h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.calculator {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.background {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.valueBox {
+    font-size: 80px;
+    color: white;
+    border: solid white;
+    border-radius: 20px;
+    border-width: thin;
+    margin: auto;
+    width: 50%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.numPad {
+    background-color: #2a2d37
+}
+
+.numPad:hover {}
+
+#num,
+#operator {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin: ;
+
+}
+
+#num {
+    font-size: 25px;
+    background-color: #2a2d37;
+    color: white;
+    border: none;
+    padding: 5%;
+    margin: 3px;
+}
+
+#num:hover {
+    cursor: pointer;
+    background-color: #474c5e;
+}
+
+#operator {
+    font-size: 25px;
+    color: #f16868;
+    background-color: #2a2d37;
+    border: none;
+    padding: 5%;
+    margin: 3px;
+}
+
+#operator:hover {
+    cursor: pointer;
+    background-color: #474c5e;
+}
