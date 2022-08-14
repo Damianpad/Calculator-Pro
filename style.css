@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Montserrat:ital,wght@1,500&display=swap');
 
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+
 * {
     background-color: #22252d;
 }
@@ -31,7 +43,7 @@ h1 {
     border-radius: 20px;
     border-width: thin;
     margin: auto;
-    width: 50%;
+    width: 80%;
     height: 100px;
     padding: 10px;
     margin-bottom: 50px;
@@ -49,7 +61,7 @@ h1 {
     height: 100px;
     width: 100px;
     text-align: center;
-    margin: ;
+    
 
 }
 
