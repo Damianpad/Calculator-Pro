@@ -1,35 +1,7 @@
-// const value1 = document.querySelector(".value1")
-// const value2 = document.querySelector(".value2")
-
-// value1.addEventListener("click", e => {
-//     console.log(e.target);
-// })
-
-// value2.addEventListener("click", e => {
-//     console.log(e.target);
-const value1 = document.querySelector(".value1")
-const value2 = document.querySelector(".value2")
-const btn = document.querySelector("btn")
+const value1 = document.getElementById("valueBox");
+const btn = document.getElementById("num");
 
 
-
-function getInput() {
-  let input = document.getElementById("value1").value1
-  console.log(input);
-}
-
-
-  btn.addEventListener("click", e => {
-    console.log(getInput(e));
-
-
-
-// value2.addEventListener("click", e => {
-//   console.log(e);
-// })
-
-// const calculate = getElementById("calculate").addEventListener("click", e => {
-//     console.log(e.target)
-// })
-// const value1 = document.getElementById;
-
+btn.addEventListener('click', function handleClick() {
+  value1. = '7';
+})

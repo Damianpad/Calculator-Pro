@@ -56,7 +56,7 @@ h1 {
 
 .numPad:hover {}
 
-#num,
+.num,
 #operator {
     height: 100px;
     width: 100px;
@@ -65,7 +65,7 @@ h1 {
 
 }
 
-#num {
+.num {
     font-size: 25px;
     background-color: #2a2d37;
     color: white;
@@ -74,7 +74,7 @@ h1 {
     margin: 3px;
 }
 
-#num:hover {
+.num:hover {
     cursor: pointer;
     background-color: #474c5e;
 }
