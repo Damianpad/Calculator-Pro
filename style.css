@@ -51,7 +51,10 @@ h1 {
 }
 
 .numPad {
-    background-color: #2a2d37
+    background-color: #2a2d37;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
     
 }
 
@@ -78,6 +81,7 @@ h1 {
 .num:hover {
     cursor: pointer;
     background-color: #474c5e;
+
 }
 
 #operator {
