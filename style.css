@@ -23,7 +23,7 @@ h1 {
 
 .calculator {
     margin: auto;
-    width: 50%;
+    /* width: 50%; */
     padding: 10px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -96,4 +96,18 @@ h1 {
 #operator:hover {
     cursor: pointer;
     background-color: #474c5e;
+}
+
+/*  Media Query: Tablet or Smaller */
+@media screen and (max-width:1000px) {
+    .background {
+        margin: auto 10px;
+    }
+
+    .numPad{
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 5px;
+        font-size: 2.5rem;
+    }
+    
 }
